@@ -1,8 +1,50 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Download Vercel screensaver">
-Hello
+  <video
+    src="https://github.com/blackmann/vercel-screensavers/raw/master/Vercel/vercel.mp4"
+    class="absolute h-screen w-screen object-cover top-0 left-0"
+    id="bg-video"
+    autoplay
+    preload="auto"
+    muted
+    loop></video>
+  <div
+    class="h-screen bg-cover flex flex-col gap-4 justify-end items-center p-8 relative z-10"
+    style="background-image: url(/ss.jpg)"
+    id="content"
+  >
+    <div class="w-[4rem] aspect-square rounded-full bg-red overflow-hidden">
+      <img src="/avatar.jpeg" alt="Avatar" />
+    </div>
+
+    <div class="text-center">
+      <a
+        href="/Vercel.saver.zip"
+        class="bg-white p-2 px-4 rounded-full text-black font-medium"
+        >Download screensaver</a
+      >
+    </div>
+
+    <p
+      class="text-center text-white text-opacity-80 shadow-lg bg-neutral-900 bg-opacity-75"
+    >
+      Find source here: <a
+        class="underline font-medium"
+        href="https://github.com/blackmann/vercel-screensavers"
+        >blackmann/vercel-screensavers</a
+      >
+    </p>
+  </div>
 </Layout>
 
+<script>
+  const video = document.getElementById("bg-video");
+  video!.onloadeddata = () => {
+    console.log("loaded");
+    const content = document.getElementById("content");
+    content!.style.backgroundImage = "none";
+  };
+</script>

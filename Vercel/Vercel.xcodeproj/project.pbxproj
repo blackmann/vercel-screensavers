@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		490F51B22AF92C0D00FC1B2E /* vercel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 490F51B12AF92C0D00FC1B2E /* vercel.mp4 */; };
 		490F51B32AF92C1B00FC1B2E /* vercel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 490F51B12AF92C0D00FC1B2E /* vercel.mp4 */; };
+		49925A932AF93A0B005BB6C4 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49925A922AF93A0B005BB6C4 /* thumbnail@2x.png */; };
+		49925A952AF93A0F005BB6C4 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 49925A942AF93A0F005BB6C4 /* thumbnail.png */; };
 		49CF8FE72AF8F7DD00D3DE6D /* VercelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF8FE62AF8F7DD00D3DE6D /* VercelView.swift */; };
 		49CF8FF52AF8FDBB00D3DE6D /* PreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF8FF42AF8FDBB00D3DE6D /* PreviewApp.swift */; };
 		49CF8FF72AF8FDBB00D3DE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF8FF62AF8FDBB00D3DE6D /* ContentView.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		490F51B12AF92C0D00FC1B2E /* vercel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vercel.mp4; sourceTree = "<group>"; };
+		49925A922AF93A0B005BB6C4 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		49925A942AF93A0F005BB6C4 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		49CF8FDA2AF8F7AA00D3DE6D /* Vercel.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vercel.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CF8FE62AF8F7DD00D3DE6D /* VercelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VercelView.swift; sourceTree = "<group>"; };
 		49CF8FF22AF8FDBB00D3DE6D /* Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +93,8 @@
 		49CF8FD02AF8F7AA00D3DE6D = {
 			isa = PBXGroup;
 			children = (
+				49925A942AF93A0F005BB6C4 /* thumbnail.png */,
+				49925A922AF93A0B005BB6C4 /* thumbnail@2x.png */,
 				490F51B12AF92C0D00FC1B2E /* vercel.mp4 */,
 				49CF8FDC2AF8F7AA00D3DE6D /* Vercel */,
 				49CF8FF32AF8FDBB00D3DE6D /* Preview */,
@@ -292,6 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				490F51B22AF92C0D00FC1B2E /* vercel.mp4 in Resources */,
+				49925A952AF93A0F005BB6C4 /* thumbnail.png in Resources */,
+				49925A932AF93A0B005BB6C4 /* thumbnail@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +434,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -481,7 +489,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
