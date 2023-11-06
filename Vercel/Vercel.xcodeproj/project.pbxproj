@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490F51B02AF91C4500FC1B2E /* vercel.mov in Resources */ = {isa = PBXBuildFile; fileRef = 490F51AF2AF91B1700FC1B2E /* vercel.mov */; };
+		490F51B22AF92C0D00FC1B2E /* vercel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 490F51B12AF92C0D00FC1B2E /* vercel.mp4 */; };
+		490F51B32AF92C1B00FC1B2E /* vercel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 490F51B12AF92C0D00FC1B2E /* vercel.mp4 */; };
 		49CF8FE72AF8F7DD00D3DE6D /* VercelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF8FE62AF8F7DD00D3DE6D /* VercelView.swift */; };
 		49CF8FF52AF8FDBB00D3DE6D /* PreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF8FF42AF8FDBB00D3DE6D /* PreviewApp.swift */; };
 		49CF8FF72AF8FDBB00D3DE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF8FF62AF8FDBB00D3DE6D /* ContentView.swift */; };
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		490F51AF2AF91B1700FC1B2E /* vercel.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vercel.mov; sourceTree = "<group>"; };
+		490F51B12AF92C0D00FC1B2E /* vercel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vercel.mp4; sourceTree = "<group>"; };
 		49CF8FDA2AF8F7AA00D3DE6D /* Vercel.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vercel.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CF8FE62AF8F7DD00D3DE6D /* VercelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VercelView.swift; sourceTree = "<group>"; };
 		49CF8FF22AF8FDBB00D3DE6D /* Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +89,7 @@
 		49CF8FD02AF8F7AA00D3DE6D = {
 			isa = PBXGroup;
 			children = (
-				490F51AF2AF91B1700FC1B2E /* vercel.mov */,
+				490F51B12AF92C0D00FC1B2E /* vercel.mp4 */,
 				49CF8FDC2AF8F7AA00D3DE6D /* Vercel */,
 				49CF8FF32AF8FDBB00D3DE6D /* Preview */,
 				49CF90052AF8FDBC00D3DE6D /* PreviewTests */,
@@ -290,7 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490F51B02AF91C4500FC1B2E /* vercel.mov in Resources */,
+				490F51B22AF92C0D00FC1B2E /* vercel.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +301,7 @@
 			files = (
 				49CF8FFC2AF8FDBC00D3DE6D /* Preview Assets.xcassets in Resources */,
 				49CF8FF92AF8FDBC00D3DE6D /* Assets.xcassets in Resources */,
+				490F51B32AF92C1B00FC1B2E /* vercel.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

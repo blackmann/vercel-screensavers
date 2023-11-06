@@ -11,7 +11,7 @@ import AVFoundation
 
 class VercelView: ScreenSaverView {
   private let videoLayer = AVPlayerLayer()
-  private let player = AVPlayer(url: Bundle(for: VercelView.self).url(forResource: "vercel", withExtension: "mov")!)
+  private let player = AVPlayer(url: Bundle(for: VercelView.self).url(forResource: "vercel", withExtension: "mp4")!)
   
   override init?(frame: NSRect, isPreview: Bool) {
     super.init(frame: frame, isPreview: isPreview)
