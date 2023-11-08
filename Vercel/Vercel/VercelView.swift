@@ -11,7 +11,7 @@ import AVFoundation
 
 class VercelView: ScreenSaverView {
   private let videoLayer = AVPlayerLayer()
-  private let player = AVPlayer(url: Bundle(for: VercelView.self).url(forResource: "vercel", withExtension: "mp4")!)
+  private var looper: AVPlayerLooper?
   
   override init?(frame: NSRect, isPreview: Bool) {
     super.init(frame: frame, isPreview: isPreview)
@@ -25,12 +25,12 @@ class VercelView: ScreenSaverView {
   
   override func startAnimation() {
     super.startAnimation()
-    player.play()
+    videoLayer.player?.play()
   }
   
   override func stopAnimation() {
     super.stopAnimation()
-    player.pause()
+    videoLayer.player?.pause()
   }
   
   private func commonInit() {
@@ -47,6 +47,11 @@ class VercelView: ScreenSaverView {
     videoLayer.masksToBounds = true
     
     self.layer = videoLayer
+    
+    
+    let item = AVPlayerItem(url: Bundle(for: VercelView.self).url(forResource: "vercel", withExtension: "mp4")!)
+    let player: AVQueuePlayer = AVQueuePlayer(playerItem: item)
+    looper = AVPlayerLooper(player: player, templateItem: item)
     
     videoLayer.player = player
   }
